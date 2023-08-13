@@ -1,0 +1,19 @@
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper {
+  height: 296px;
+  background: linear-gradient(to top, #F54B55 50%, #FFF 50%);
+}
+
+.status {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 0 25px;
+  padding: 0;
+}
