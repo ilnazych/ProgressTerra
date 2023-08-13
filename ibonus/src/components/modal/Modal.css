@@ -1,0 +1,42 @@
+.modal {
+    margin: 0 20px;
+    transform: scale(0);
+}
+
+.modal.active {
+    transform: scale(1);
+}
+
+.modal__content {
+    padding: 20px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.20);
+}
+
+.modal__title {
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0;
+}
+
+.modal__info {
+    display: flex;
+    color: #979797;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.info {
+    margin-right: 8px;
+}
+
+.modal__bottom {
+    display: flex;
+    justify-content: space-between;
+}
